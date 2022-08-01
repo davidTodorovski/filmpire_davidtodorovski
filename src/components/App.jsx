@@ -18,7 +18,7 @@ const App = () => {
         <Routes>
           <Route path="/" element={<Movies />} />
           <Route path="/profile/:id" element={<Profile />} />
-          <Route path="/movie/:ud" element={<MovieInformation />} />
+          <Route path="/movie/:id" element={<MovieInformation />} />
           <Route path="/actors/:id" element={<Actors />} />
         </Routes>
       </main>
