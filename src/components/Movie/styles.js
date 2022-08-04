@@ -17,10 +17,10 @@ export default makeStyles((theme) => ({
     },
   },
   image: {
-    borderRadius: "20px",
+    borderRadius: "15px",
     aspectRatio: 0.7,
     marginBottom: "10px",
-    width: "85%",
+    width: "95%",
     objectFit: "cover",
     transition: "all .1s ease",
     "&:hover": {
@@ -30,7 +30,7 @@ export default makeStyles((theme) => ({
   title: {
     color: theme.palette.text.primary,
     textOverflow: "ellipsis",
-    width: "230px",
+    width: "110%",
     whiteSpace: "nowrap",
     overflow: "hidden",
     marginTop: "10px",

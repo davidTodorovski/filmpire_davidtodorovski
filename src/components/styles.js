@@ -11,5 +11,6 @@ export default makeStyles(() => ({
   content: {
     flex: 1,
     padding: "2em",
+    width: "100%",
   },
 }));
