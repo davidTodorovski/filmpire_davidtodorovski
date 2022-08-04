@@ -7,11 +7,6 @@ export const moviesApi = axios.create({
   },
 });
 
-const obj = {
-  name: "David",
-  surname: "Todorovski",
-};
-
 export const fetchToken = async () => {
   try {
     const { data } = await moviesApi.get("/authentication/token/new");

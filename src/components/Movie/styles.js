@@ -1,9 +1,6 @@
 import { makeStyles } from "@mui/styles";
 
 export default makeStyles((theme) => ({
-  movie: {
-    padding: "10px",
-  },
   links: {
     alignItems: "center",
     fontWeight: "bolder",
@@ -36,5 +33,6 @@ export default makeStyles((theme) => ({
     marginTop: "10px",
     marginBottom: 0,
     textAlign: "center",
+    padding: "0 10px",
   },
 }));

@@ -98,7 +98,7 @@ const Navbar = () => {
                 <img
                   style={{ width: 30, height: 30 }}
                   alt="Profile"
-                  src="https://cdn-icons.flaticon.com/png/512/3177/premium/3177440.png?token=exp=1659477025~hmac=20fc5231ceae47f1ab27ccfc09e84af3"
+                  src={`https://www.themoviedb.org/t/p/w64_and_h64_face${user?.avatar?.tmdb?.avatar_path}`}
                 />
               </Button>
             )}

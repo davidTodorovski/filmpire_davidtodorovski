@@ -1,6 +1,6 @@
 import { makeStyles } from "@mui/styles";
 
-export default makeStyles(() => ({
+export default makeStyles((theme) => ({
   root: {
     display: "flex",
     height: "100%",
@@ -12,5 +12,8 @@ export default makeStyles(() => ({
     flex: 1,
     padding: "2em",
     width: "100%",
+    [theme.breakpoints.down("sm")]: {
+      padding: "2em 1em",
+    },
   },
 }));

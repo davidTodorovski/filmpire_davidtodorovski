@@ -17,7 +17,6 @@ const Actors = () => {
   const navigate = useNavigate();
   const classes = useStyles();
   const [page, setPage] = useState(1);
-
   const { data, error, isFetching } = useGetActorsDetailsQuery(id);
   const { data: movies } = useGetMovieByActorIdQuery({ id, page });
 
