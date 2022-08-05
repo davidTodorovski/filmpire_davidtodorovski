@@ -95,7 +95,7 @@ const Navbar = () => {
                 onClick={() => {}}
               >
                 {!isMobile && <>My Movies &nbsp;</>}
-                <img
+                <Avatar
                   style={{ width: 30, height: 30 }}
                   alt="Profile"
                   src={`https://www.themoviedb.org/t/p/w64_and_h64_face${user?.avatar?.tmdb?.avatar_path}`}
